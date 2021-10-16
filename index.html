@@ -10,85 +10,96 @@
 <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./style.css">
   <title>Frontend Mentor | FAQ Accordion Card</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
   <main class="container">
     <section class="faq-section">
-      <div class="faq-image"><img src="./images/illustration-woman-online-mobile.svg" alt=""></div>
+      <div class="faq-hero">
+        <img class="illustrate-desktop" src="./images/illustration-woman-online-desktop.svg" alt="">
+        <img class="illustrate-mobile" src="./images/illustration-woman-online-mobile.svg" alt="">                    
+      </div>  
+      <img class="illustrate-box" src="./images/illustration-box-desktop.svg" alt="">     
       <div class="faq-main">
         <h1 class="faq-head">FAQ</h1>
         <div class="faq-questions">
-          <div class="faq-question">
-            <div class="question">
-               How many team members can I invite?
-            </div>  
-           
-             <div class="toggle">
-              <img src="./images/icon-arrow-down.svg" alt="icon-arrow-down">
-            </div>         
+          <div class="faq-question">       
+            <div class="faq-toggle">
+              <div class="question">
+                How many team members can I invite?
+             </div>           
+              <div class="toggle">
+               <img src="./images/icon-arrow-down.svg" alt="icon-arrow-down">
+             </div> 
+            </div>
             <div class="answer"> 
               You can invite up to 2 additional users on the Free plan. There is no limit on 
               team members for the Premium plan.
             </div>
-          </div>
-          <div class="faq-question">
-            <div class="question">
-              What is the maximum file upload size?
+          </div>          
+          <div class="faq-question">       
+            <div class="faq-toggle">
+              <div class="question">
+                What is the maximum file upload size?
+             </div>           
+              <div class="toggle">
+               <img src="./images/icon-arrow-down.svg" alt="icon-arrow-down">
+             </div> 
             </div>
-             <div class="toggle">
-              <img src="./images/icon-arrow-down.svg" alt="icon-arrow-down">
-            </div> 
-            <div class="answer">
-              No more than 2GB. All files in your account must fit your allotted storage space.
+            <div class="answer"> 
+              No more than 2GB. All files in your account must fit your
+              allotted storage space.
             </div>
-          </div>
-          <div class="faq-question">
-            <div class="question">
-              How do I reset my password?
+          </div>          
+          <div class="faq-question">       
+            <div class="faq-toggle">
+              <div class="question">
+                How do I reset my password?
+             </div>           
+              <div class="toggle">
+               <img src="./images/icon-arrow-down.svg" alt="icon-arrow-down">
+             </div> 
             </div>
-             <div class="toggle">
-              <img src="./images/icon-arrow-down.svg" alt="icon-arrow-down">
-            </div> 
-            <div class="answer">
-              Click “Forgot password” from the login page or “Change password” from your profile page.A reset link will be emailed to you.
+            <div class="answer"> 
+              Click “Forgot password” from the login page or “Change password”
+              from your profile page. A reset link will be emailed to you.
             </div>
-          </div>
-          <div class="faq-question">
-            <div class="question">
-              Can I cancel my subscription?
+          </div>          
+          <div class="faq-question">       
+            <div class="faq-toggle">
+              <div class="question">
+                Can I cancel my subscription?
+             </div>           
+              <div class="toggle">
+               <img src="./images/icon-arrow-down.svg" alt="icon-arrow-down">
+             </div> 
             </div>
-             <div class="toggle">
-              <img src="./images/icon-arrow-down.svg" alt="icon-arrow-down">
-            </div> 
-            <div class="answer">
-              Yes! Send us a message and we’ll process your request no questions asked.
+            <div class="answer"> 
+              Yes! Send us a message and we’ll process your request no
+              questions asked.
             </div>
-          </div>
-          <div class="faq-question">
-            <div class="question">
-              Do you provide additional support?
+          </div>          
+          <div class="faq-question">       
+            <div class="faq-toggle">
+              <div class="question">
+                Do you provide additional support?
+             </div>           
+              <div class="toggle">
+               <img src="./images/icon-arrow-down.svg" alt="icon-arrow-down">
+             </div> 
             </div>
-             <div class="toggle">
-              <img src="./images/icon-arrow-down.svg" alt="icon-arrow-down">
-            </div> 
-            <div class="answer">
-              Chat and email support is available 24/7. Phone lines are open during normal business hours.
+            <div class="answer"> 
+              Chat and email support is available 24/7. Phone lines are open
+              during normal business hours.
             </div>
-          </div>
+          </div>          
         </div>
       </div>
     </section>
-  </main>
- 
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </div>
+  </main> 
+  <script src="./app.js"></script> 
 </body>
 </html>
