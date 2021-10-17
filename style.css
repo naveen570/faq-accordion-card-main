@@ -21,7 +21,7 @@ body {
 }
 .container {
   background-image: linear-gradient(var(--b-violet), var(--b-blue));
-  height: 100vh;
+  min-height: 100vh;
   display: grid;
   place-items: center;
 }
@@ -37,6 +37,7 @@ body {
   background-position: top center;
   display: flex;
   flex-direction: column;
+  box-shadow: 0 1rem 2.5rem -0.5rem rgba(0, 0, 0, 0.7);
 }
 .illustrate-desktop,
 .illustrate-box {
@@ -100,15 +101,17 @@ body {
 }
 .active + .answer {
   max-height: 5rem;
+  padding-top: 0.5rem;
   /* overflow: visible; */
 }
 @media screen and (min-width: 64rem) {
   .faq-section {
     flex-direction: row;
-    width: 80%;
-    max-width: 62.5rem;
+    width: 58rem;
     background-image: none;
     gap: 1rem;
+    margin-top: 3rem;
+    height: 30rem;
   }
   .illustrate-mobile {
     display: none;
@@ -133,11 +136,12 @@ body {
   .illustrate-box {
     display: block;
     position: absolute;
-    top: 35%;
-    left: -9.5%;
+    top: 33.5%;
+    left: -10%;
   }
   .faq-main {
-    max-width: 400px;
+    max-width: 360px;
+    margin-right: 5rem;
   }
   .faq-head {
     margin: 3rem 0 0.5rem;
@@ -147,8 +151,8 @@ body {
     padding: 0 1.5rem 1.5rem 0;
   }
   .faq-question {
-    padding: 1.3rem 0;
-    font-size: 0.9rem;
+    padding: 1rem 0;
+    font-size: 0.8rem;
   }
 }
 .attribution {
@@ -156,5 +160,5 @@ body {
   text-align: center;
 }
 .attribution a {
-  color: hsl(228, 56%, 85%);
+  color: hsl(228, 45%, 44%);
 }
